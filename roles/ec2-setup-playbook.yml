@@ -1,0 +1,5 @@
+- name: Demo Ansible Playbook
+  hots: all
+  remote_user: ubuntu
+  roles:
+    - python
