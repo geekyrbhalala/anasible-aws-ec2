@@ -1,0 +1,6 @@
+- name: Setup python environment and install apache
+  hosts: aws_servers
+  remote_user: ubuntu
+  become: yes
+  roles:
+    - python

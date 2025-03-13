@@ -1,0 +1,12 @@
+- name: Emxaple Ansible playbook for handler
+  hosts: aws_servers
+  become: yes
+  remote_user: ubuntu
+  roles:
+    - handlers
+
+  handlers:
+    - name: Restart Nginx
+      service:
+        name: nginx
+        state: restarted

@@ -1,2 +1,2 @@
-[aws-host]
-3.96.179.86 ansible_ssh_private_key_file=/root/.ssh/aws-ec2-instance-key
+[aws_servers]
+<your public IP> ansible_ssh_private_key_file=/root/.ssh/<your Key>
